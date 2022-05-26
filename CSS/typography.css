@@ -1,0 +1,59 @@
+
+body{
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* ------------------------------- Banner CSS ------------------------------- */
+
+.flex-banner {
+    font-size: 13px;
+}
+
+.lang{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ------------------------------- Header CSS ------------------------------- */
+
+
+
+/* -------------------------------- Menu CSS -------------------------------- */
+
+.menu-header{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* -------------------------------- Main CSS -------------------------------- */
+
+
+
+/* ---------------------------- Menu Pop-out CSS ---------------------------- */
+
+
+
+/* ----------------------------- Search Box CSS ----------------------------- */
+
+
+
+/* ---------------------------- Cart Pop-out CSS ---------------------------- */
+
+
+
+/* -------------------------- Profile Pop-out CSS --------------------------- */
+
+
+
+/* ------------------------------- Footer CSS ------------------------------- */
+
+.flex-footer {
+    font-size: small;
+}   
+
+.footer-links{
+    text-decoration: underline;
+}
+
+

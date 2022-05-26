@@ -1,0 +1,118 @@
+
+:root{
+    --main-blue: #10122C;
+    --main-beige: #FCBF88;
+    --grey: grey;
+}
+
+body{
+    color: white;
+    background-color: var(--main-blue);
+}
+
+.flex-main {
+    display: flex;
+    flex: 1;
+    min-height: 100%;
+}
+
+/* ------------------------------- Banner CSS ------------------------------- */
+
+.flex-banner {
+    background-color: var(--main-beige);
+    color: black;
+}
+
+/* ------------------------------- Header CSS ------------------------------- */
+
+.search-icon:hover{
+    background-color: var(--grey);
+}
+
+.profile-icon:hover{
+    background-color: var(--grey);
+}
+
+.cart-icon:hover{
+    background-color: var(--grey);
+}
+
+/* -------------------------------- Menu CSS -------------------------------- */
+
+.menu-items {
+    background: var(--main-beige);
+    box-shadow: 5px 0px 10px 0px var(--main-beige);
+}
+
+.menu-header{
+    color: var(--main-blue);
+}
+
+.menu-items a {
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+    color: var(--grey);
+    transition: color 0.3s ease-in-out;
+}
+
+.hamburger .line {
+    background: var(--main-beige);
+}
+
+/* -------------------------------- Main CSS -------------------------------- */
+
+.flex-article input[type=text] {
+    background-color: var(--main-beige);
+    box-shadow: 0px 0px 5px 0px inset;
+}
+  
+.search-container button {
+    background: var(--main-beige);
+    box-shadow: 0px 0px 3px 0px inset;
+}
+  
+.flex-article .search-container button:hover {
+    background: var(--grey);
+}
+
+/* ---------------------------- Menu Pop-out CSS ---------------------------- */
+
+.flex-nav {
+    /* background-color: #020420; */
+}
+
+/* ----------------------------- Search Box CSS ----------------------------- */
+
+
+
+/* ---------------------------- Cart Pop-out CSS ---------------------------- */
+
+.flex-aside {
+    /* background-color: #020420; */
+}
+
+/* -------------------------- Profile Pop-out CSS --------------------------- */
+
+
+
+/* ------------------------------- Footer CSS ------------------------------- */
+
+.flex-footer {
+    background-color: var(--main-beige);
+    color: black;
+}   
+
+.flex-footer input[type=text] {
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px var(--main-beige) inset;
+}
+  
+.email-enter button {
+    background: var(--main-beige);
+    border-color: var(--main-blue);
+    box-shadow: 0px 0px 3px 0px inset;
+}
+
+
