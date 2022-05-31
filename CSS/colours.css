@@ -33,6 +33,11 @@ body{
     background-color: var(--grey);
 }
 
+.right-header button{
+    background: none;
+	border: none;
+}
+
 .cart-icon:hover{
     background-color: var(--grey);
 }

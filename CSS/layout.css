@@ -86,6 +86,10 @@ body{
     border-radius: 0.5rem;
 }
 
+.right-header button{
+	padding: 0;
+	cursor: pointer;
+}
 .cart-icon{
     width: 50px;
     margin-right: 20px;
@@ -411,3 +415,21 @@ body{
 
 }
 
+
+.cart-content {
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    z-index:100;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+    padding-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    /* width: 0;
+    overflow: hidden; */
+}
+
+/* .show-cart-content {
+    width: 300px;
+} */

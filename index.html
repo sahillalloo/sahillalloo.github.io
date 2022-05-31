@@ -58,6 +58,7 @@ an account at checkout. -->
                                 <li><a href="#">Other</a></li>
                             </ul>
                         </div> -->
+
                         <li><a href="#">Genres</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Help</a></li>
@@ -68,10 +69,28 @@ an account at checkout. -->
                 </div>
                 <a href="./HTML/search.html" class="search-icon"><img src="./SVGs/searchicon.svg" alt=""></a>
             </div>
-            <a href="../index1.html" class="logo-icon"><img src="./SVGs/logo.svg" alt=""></a>
-            <a href="../index1.html" class="small-logo"><img src="./SVGs/smalllogo.svg" alt=""></a>
+            <a href="../index.html" class="logo-icon"><img src="./SVGs/logo.svg" alt=""></a>
+            <a href="../index.html" class="small-logo"><img src="./SVGs/smalllogo.svg" alt=""></a>
             <div class="right-header">
-                <a href="#" class="cart-icon"><img src="./SVGs/carticon.svg" alt=""></a>
+                <div id="cart-info">
+                    <button onclick="openCart()" class="cart-icon"><img src="./SVGs/carticon.svg" alt=""></button>
+
+                    <div id="cart" class="cart-content">
+                        <div class="closecart">
+                            <button onclick="closeCart()" class="close-cart">X</button>
+                        </div>
+                        <h2>Cart Details</h2>
+                        <p>You have choose the following items.</p>
+                        <div class="back-btn">
+                            Back
+                        </div>
+                        <div class="checkout-btn">
+                            Checkout
+                        </div>
+                    </div>
+
+                </div>
+
                 <a href="#" class="profile-icon"><img src="./SVGs/profileicon.svg" alt=""></a>
             </div>
         </nav>
