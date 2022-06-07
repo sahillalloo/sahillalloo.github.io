@@ -55,6 +55,7 @@ body{
 
 .menu-items a {
     transition: color 0.3s ease-in-out;
+    color: var(--main-blue);
 }
 
 .menu-items a:hover {
