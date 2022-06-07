@@ -39,26 +39,6 @@ an account at checkout. -->
                         </div>
                         <li><a href="#">Best Sellers</a></li>
                         <li><a href="#">New Arrivals</a></li>
-
-                        <!-- <div class="genre-submenu">
-                            <input type="checkbox" name="" id="">
-                            <li class="genres"><a href="#">Genres ></a></li>
-                            <ul class="submenu-items">
-                                <div class="menu-header">
-                                    <img src="./SVGs/menulogo.svg" alt="">
-                                    <p class>Genres:</p>
-                                </div>
-                                <li><a href="#">Rock</a></li>
-                                <li><a href="#">Hip Hop</a></li>
-                                <li><a href="#">Electronic</a></li>
-                                <li><a href="#">Metal</a></li>
-                                <li><a href="#">Jazz</a></li>
-                                <li><a href="#">Blues</a></li>
-                                <li><a href="#">Reggae</a></li>
-                                <li><a href="#">Other</a></li>
-                            </ul>
-                        </div> -->
-
                         <li><a href="#">Genres</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Help</a></li>
@@ -76,16 +56,22 @@ an account at checkout. -->
                     <button onclick="openCart()" class="cart-icon"><img src="./SVGs/carticon.svg" alt=""></button>
 
                     <div id="cart" class="cart-content">
-                        <div class="closecart">
+                        <div class="cart-header">
+                            <p>Cart:</p>
                             <button onclick="closeCart()" class="close-cart">X</button>
                         </div>
-                        <h2>Cart Details</h2>
-                        <p>You have choose the following items.</p>
-                        <div class="back-btn">
-                            Back
+                        <div class="cart-items">
+                            <img src="./SVGs/cartitem1.svg" alt="">
+                            <img src="./SVGs/cartitem2.svg" alt="">
                         </div>
-                        <div class="checkout-btn">
-                            Checkout
+                        <div class="prices">
+                            <p>Sub Total: $84.00</p>
+                            <p>Shipping: $12.50</p>
+                            <p class="total-price">Total: $96.50</p>
+                        </div>
+                        <div cart-btns>
+                            <button onclick="closeCart()" class="back-cart"><img src="./SVGs/backbtn.svg" alt=""></button>
+                            <a href="#"><img src="./SVGs/checkoutbtn.svg" alt=""></a>
                         </div>
                     </div>
 
