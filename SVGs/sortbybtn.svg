@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="25" viewBox="0 0 116 35">
+  <g id="Rectangle_51" data-name="Rectangle 51" fill="#10122c" stroke="#707070" stroke-width="1">
+    <rect width="116" height="35" stroke="none"/>
+    <rect x="0.5" y="0.5" width="115" height="34" fill="none"/>
+  </g>
+  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M13.835,19.585l5.781-7.9a.9.9,0,0,1,1.543,0,1.917,1.917,0,0,1,0,2.113l-6.55,8.95a.9.9,0,0,1-1.507.044L6.506,13.8a1.911,1.911,0,0,1,0-2.113.9.9,0,0,1,1.543,0Z" transform="translate(90.499 0.285)" fill="#fcbf88"/>
+  <text id="Sort_By" data-name="Sort By" transform="translate(7.596 22.773)" fill="#fcbf88" font-size="23" font-family="Helvetica-Bold, Helvetica" font-weight="700" text-decoration="underline"><tspan x="0" y="0">Sort By</tspan></text>
+</svg>

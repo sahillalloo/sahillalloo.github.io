@@ -83,11 +83,35 @@ body{
     font-weight: bold;
 }
 
-
-
 .price{
     text-decoration: underline;
     font-weight: bold;
 }
 
+/* ----------------------------- Search Page CSS ----------------------------- */
+
+.results-num{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.filters-info{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.sortby-info{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.pages{
+    font-size: 17px;
+    text-decoration: underline;
+}
+.pages-num{
+    font-size: 17px;
+    line-height: 40px;
+}
 

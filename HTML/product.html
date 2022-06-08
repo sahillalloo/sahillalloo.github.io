@@ -1,17 +1,12 @@
-<!-- MAKE SURE TO ADD: order reference no. at confirmation and ability to log into or create
-an account at checkout. -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/styles.css">
-
+    <title>Search Page</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
     <div class="container">
@@ -34,7 +29,7 @@ an account at checkout. -->
                     </div>
                     <ul class="menu-items">
                         <div class="menu-header">
-                            <img src="./SVGs/menulogo.svg" alt="">
+                            <img src="../SVGs/menulogo.svg" alt="">
                             <p class>Menu:</p>
                         </div>
                         <li><a href="#">Best Sellers</a></li>
@@ -47,73 +42,49 @@ an account at checkout. -->
                         <li><a href="#">Gifts</a></li>
                     </ul>
                 </div>
-                <a href="./HTML/search.html" class="search-icon"><img src="./SVGs/searchicon.svg" alt=""></a>
+                <a href="../HTML/search.html" class="search-icon"><img src="../SVGs/searchicon.svg" alt=""></a>
             </div>
-            <a href="./index.html" class="logo-icon"><img src="./SVGs/logo.svg" alt=""></a>
-            <a href="./index.html" class="small-logo"><img src="./SVGs/smalllogo.svg" alt=""></a>
+            <a href="../index.html" class="logo-icon"><img src="../SVGs/logo.svg" alt=""></a>
+            <a href="../index.html" class="small-logo"><img src="../SVGs/smalllogo.svg" alt=""></a>
             <div class="right-header">
                 <div id="cart-info">
-                    <button onclick="openCart()" class="cart-icon"><img src="./SVGs/carticon.svg" alt=""></button>
+                    <button onclick="openCart()" class="cart-icon"><img src="../SVGs/carticon.svg" alt=""></button>
                     <div id="cart" class="cart-content">
                         <div class="cart-header">
                             <p>Cart:</p>
                             <button onclick="closeCart()" class="close-cart">X</button>
                         </div>
                         <div class="cart-items">
-                            <img src="./SVGs/cartitem1.svg" alt="">
-                            <img src="./SVGs/cartitem2.svg" alt="">
+                            <img src="../SVGs/cartitem1.svg" alt="">
+                            <img src="../SVGs/cartitem2.svg" alt="">
                         </div>
-                        <div class="prices">
+                        <div class="cart-prices">
                             <p>Sub Total: $84.00</p>
                             <p>Shipping: $12.50</p>
                             <p class="total-price">Total: $96.50</p>
                         </div>
                         <div cart-btns>
-                            <button onclick="closeCart()" class="back-cart"><img src="./SVGs/backbtn.svg" alt=""></button>
-                            <a href="./HTML/checkout.html"><img src="./SVGs/checkoutbtn.svg" alt=""></a>
+                            <button onclick="closeCart()" class="back-cart"><img src="../SVGs/backbtn.svg" alt=""></button>
+                            <a href="./checkout.html"><img src="../SVGs/checkoutbtn.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="profile-icon"><img src="./SVGs/profileicon.svg" alt=""></a>
+                <a href="#" class="profile-icon"><img src="../SVGs/profileicon.svg" alt=""></a>
             </div>
         </nav>
 
         <main class="flex-main">
 
             <nav class="flex-nav">
-                
+                NAV
             </nav>
 
             <article class="flex-article">
-                <div class="search-container">
-                    <input type="text" placeholder="Search through products..." name="search">
-                    <a href="./HTML/search.html"><button><img src="./SVGs/searchboxicon.svg" alt=""></button></a>
-                </div>
-                <div class="tiles">
-                    <div class="left-tiles">
-                        <a href="./HTML/search.html" class="sellers-tile"><img src="./SVGs/bestsellersbox.svg" alt=""></a>
-                        <a href="./HTML/search.html" class="arrivals-tile"><img src="./SVGs/newarrivalsbox.svg" alt=""></a>
-                    </div>
-                    <div class="middle-tile">
-                        <a href="./HTML/search.html" class="genres-tile"><img src="./SVGs/genreboxdesktop.svg" alt=""></a>
-                        <a href="./HTML/search.html" class="mobile-genres-tile"><img src="./SVGs/genrebox.svg" alt=""></a>
-                    </div>
-                    <div class="right-riles">
-                        <a href="#" class="contact-tile"><img src="./SVGs/contactbox.svg" alt=""></a>
-                        <a href="#" class="shipping-tile"><img src="./SVGs/shippingbox.svg" alt=""></a>
-                    </div>
-                </div>
-                <div class="reviews">
-                    <a href="#" class="review1"><img src="./SVGs/review1.svg" alt=""></a>
-                    <a href="#" class="review2"><img src="./SVGs/review2.svg" alt=""></a>
-                    <a href="#" class="review3"><img src="./SVGs/review3.svg" alt=""></a>
-                    <a href="#" class="review4"><img src="./SVGs/review4.svg" alt=""></a>
-                    <a href="#" class="moreicon"><img src="./SVGs/moreicon.svg" alt=""></a>
-                </div>
+                
             </article>
 
             <aside class="flex-aside">
-                
+                ASIDE
             </aside>
 
         </main>
@@ -121,7 +92,7 @@ an account at checkout. -->
         <footer class="flex-footer">
             <div class = "footer-info">
                 <div class="socials">
-                    <a href="#"><img src="./SVGs/socialicons.svg" alt=""></a>
+                    <a href="#"><img src="../SVGs/socialicons.svg" alt=""></a>
                 </div>
                 <p class="footer-links"> 
                     Contact
@@ -139,9 +110,10 @@ an account at checkout. -->
             </div>
         </footer>
 
+
     </div>
 
     
-    <script src="./JS/script.js"></script>
+    <script src="../JS/script.js"></script>
 </body>
 </html>

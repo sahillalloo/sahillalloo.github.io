@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 111 36">
+  <g id="Rectangle_50" data-name="Rectangle 50" fill="#10122c" stroke="#707070" stroke-width="1">
+    <rect width="111" height="36" stroke="none"/>
+    <rect x="0.5" y="0.5" width="110" height="35" fill="none"/>
+  </g>
+  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M14.053,19.823,20,11.7a.924.924,0,0,1,1.587,0,1.972,1.972,0,0,1,0,2.174l-6.738,9.206a.92.92,0,0,1-1.55.045L6.515,13.877a1.966,1.966,0,0,1,0-2.174.924.924,0,0,1,1.587,0Z" transform="translate(78.903 0.615)" fill="#fcbf88"/>
+  <text id="Filters" transform="translate(6.545 23.727)" fill="#fcbf88" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700" text-decoration="underline"><tspan x="0" y="0">Filters</tspan></text>
+</svg>

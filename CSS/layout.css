@@ -19,6 +19,16 @@ body{
     display: flex;
 }
 
+.flex-nav {
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-aside {
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
 /* ------------------------------- Banner CSS ------------------------------- */
 
 .flex-banner {
@@ -107,7 +117,7 @@ body{
     border-radius: 0.5rem;
 }
 
-/* -------------------------------- Menu CSS -------------------------------- */
+/* ---------------------------- Menu Pop-out CSS ---------------------------- */
 /* Code for menu icon animation and pop-out menu adapted from; https://alvarotrigo.com/blog/hamburger-menu-css/ */
 
 .menu-icon input[type="checkbox"],
@@ -271,27 +281,34 @@ body{
     }
 }
 
-/* ---------------------------- Menu Pop-out CSS ---------------------------- */
-
-.flex-nav {
-    padding-top: 3rem;
-    flex: 1 1 5rem;
-}
-
-/* ----------------------------- Search Box CSS ----------------------------- */
-
-
-
 /* ---------------------------- Cart Pop-out CSS ---------------------------- */
 
-.flex-aside {
-    padding-top: 3rem;
-    flex: 1 1 5rem;
+.cart-content {
+    position: absolute;
+    top: 55px;
+    right: 4px;
+    width: 275px;
+    border-radius: 5px;
+    z-index:5;
+    padding-bottom: 10px;
 }
 
-/* -------------------------- Profile Pop-out CSS --------------------------- */
+.cart-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
 
+.cart-prices{
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+}
 
+.cart-btns{
+    display: flex;
+    flex-direction: row;
+}
 
 /* ------------------------------- Footer CSS ------------------------------- */
 
@@ -427,36 +444,62 @@ body{
     
 }
 
-/* -------------------------------- Cart CSS -------------------------------- */
+/* ----------------------------- Search Page CSS ----------------------------- */
 
-.cart-content {
-    position: absolute;
-    top: 55px;
-    right: 4px;
-    width: 275px;
-    border-radius: 5px;
-    z-index:5;
-    padding-bottom: 10px;
+.results-num{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.cart-header{
+.results-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13px;
+}
+
+.results-header-right{
+    display: grid;
+    grid-template-columns: 100px 100px;
+
+}
+
+.filter-popouts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.2rem;
 }
 
-.cart-prices{
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
+.filters-info{
+    width: 100px;
+    border-radius: 5px;
+    z-index: 10;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0.5rem;
+}
+.close-filters{
+    margin-left: 80px;
 }
 
-.cart-btns{
+.sortby-info{
+    width: 110px;
+    border-radius: 5px;
+    z-index: 10;
+    margin-right: 6rem;
+    padding-bottom: 5px;
+    margin-bottom: 0.5rem;
+}
+.close-sortby{
+    margin-left: 90px;
+}
+
+.products{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-
-/* ----------------------------- Search Page CSS ----------------------------- */
 
 .product{
     display: flex;
@@ -465,8 +508,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-right: 2rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
-    background-color: rgb(132, 104, 104, 0.5)
 }
 
 .product-btns{
@@ -479,8 +522,19 @@ body{
     padding-left: 0.75rem ;
 }
 
+.pages{
+    margin-top: 1rem;
+}
+.pages-num{
+    margin-bottom: 1rem;
+}
+
 
 @media all and (max-width: 540px) {
+
+    .products{
+        flex-direction: row;
+    }
 
     .product{
         margin-left: 1.5rem;

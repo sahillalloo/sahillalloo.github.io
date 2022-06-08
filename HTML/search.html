@@ -65,7 +65,7 @@
                         </div>
                         <div cart-btns>
                             <button onclick="closeCart()" class="back-cart"><img src="../SVGs/backbtn.svg" alt=""></button>
-                            <a href="#"><img src="../SVGs/checkoutbtn.svg" alt=""></a>
+                            <a href="./checkout.html"><img src="../SVGs/checkoutbtn.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -76,26 +76,88 @@
         <main class="flex-main">
 
             <nav class="flex-nav">
-                SIDENAV
+                
             </nav>
 
             <article class="flex-article">
+                <div class="search-container">
+                    <input type="text" placeholder="psychedelic rock" name="search">
+                    <a href="./search.html"><button><img src="../SVGs/searchboxicon.svg" alt=""></button></a>
+                </div>
+                <p class="results-num">90 Results for “psychedelic rock”</p>
+                <div class="results-header">
+                    <button onclick="openFilters()" class="filters-btn"><img src="../SVGs/filtersbtn.svg" alt=""></button>
+                    <div class="results-header-right">
+                        <button onclick="openSort()" class="sortby-btn"><img src="../SVGs/sortbybtn.svg" alt=""></button>
+                        <img src="../SVGs/layoutbtn.svg" alt="">
+                    </div>
+                </div>
+                <div class="filter-popouts">
+                    <div id="filters" class="filters-info">
+                        <button onclick="closeFilters()" class="close-filters">X</button>
+                        <p>Genres</p>
+                        <p>Type</p>
+                        <p>Price</p>
+                        <p>Year</p>
+                        <p>Country</p>
+                    </div>
+                    <div id="sortby" class="sortby-info">
+                        <button onclick="closeSort()" class="close-sortby">X</button>
+                        <p>Featured</p>
+                        <p>New</p>
+                        <p>Price: high-low</p>
+                        <p>Price: low-high</p>
+                    </div>
+                </div>
+                
                 <div class="products">
                     <div class="product">
-                        <img class="cover" src="../SVGs/productcover1.svg" alt="">
-                        <img class="title" src="../SVGs/producttitle1.svg" alt="">
+                        <a href="./product.html"><img class="cover" src="../SVGs/productcover1.svg" alt=""></a>
+                        <a href="./product.html"><img class="title" src="../SVGs/producttitle1.svg" alt=""></a>
                         <p class="price">$44.00</p>
                         <div class="product-btns">
                             <img src="../SVGs/likebtn.svg" alt="">
                             <button onclick="openCart()" class="quick-cart"><img src="../SVGs/cartbtn.svg" alt=""></button>
-                            <a href="#" class="quick-buy"><img src="../SVGs/buybtn.svg" alt=""></a>
+                            <a href="./checkout.html" class="quick-buy"><img src="../SVGs/buybtn.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="./product.html"><img class="cover" src="../SVGs/productcover1.svg" alt=""></a>
+                        <a href="./product.html"><img class="title" src="../SVGs/producttitle1.svg" alt=""></a>
+                        <p class="price">$44.00</p>
+                        <div class="product-btns">
+                            <img src="../SVGs/likebtn.svg" alt="">
+                            <button onclick="openCart()" class="quick-cart"><img src="../SVGs/cartbtn.svg" alt=""></button>
+                            <a href="./checkout.html" class="quick-buy"><img src="../SVGs/buybtn.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="./product.html"><img class="cover" src="../SVGs/productcover1.svg" alt=""></a>
+                        <a href="./product.html"><img class="title" src="../SVGs/producttitle1.svg" alt=""></a>
+                        <p class="price">$44.00</p>
+                        <div class="product-btns">
+                            <img src="../SVGs/likebtn.svg" alt="">
+                            <button onclick="openCart()" class="quick-cart"><img src="../SVGs/cartbtn.svg" alt=""></button>
+                            <a href="./checkout.html" class="quick-buy"><img src="../SVGs/buybtn.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="./product.html"><img class="cover" src="../SVGs/productcover1.svg" alt=""></a>
+                        <a href="./product.html"><img class="title" src="../SVGs/producttitle1.svg" alt=""></a>
+                        <p class="price">$44.00</p>
+                        <div class="product-btns">
+                            <img src="../SVGs/likebtn.svg" alt="">
+                            <button onclick="openCart()" class="quick-cart"><img src="../SVGs/cartbtn.svg" alt=""></button>
+                            <a href="./checkout.html" class="quick-buy"><img src="../SVGs/buybtn.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
+                <p class="pages">Pages:</p>
+                <p class="pages-num">1, 2, 3, 4, 5, 6, 8, 9 ></p>
             </article>
 
             <aside class="flex-aside">
-                ASIDENAV
+                
             </aside>
 
         </main>

@@ -1,17 +1,6 @@
 'use strict';
 
-(function(){
-    const cartInfo = document.getElementById('cart-info')
-    const cart = document.getElementById('cart')
-
-    cartInfo.addEventListener('click', function(){
-        cart.classList.toggle('show-cart-content')
-    })
-
-})
-
 document.getElementById('cart').style.display = 'none';
-
 
 function openCart(){
     document.getElementById('cart').style.display = 'block';
@@ -19,4 +8,26 @@ function openCart(){
 
 function closeCart(){
     document.getElementById('cart').style.display = 'none';
+}
+
+
+
+document.getElementById('filters').style.display = 'none';
+
+function openFilters(){
+    document.getElementById('filters').style.display = 'block';
+}
+
+function closeFilters(){
+    document.getElementById('filters').style.display = 'none';
+}
+
+document.getElementById('sortby').style.display = 'none';
+
+function openSort(){
+    document.getElementById('sortby').style.display = 'block';
+}
+
+function closeSort(){
+    document.getElementById('sortby').style.display = 'none';
 }
