@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="55" viewBox="0 0 58 55">
+  <defs>
+    <filter id="Rectangle_18" x="0" y="0" width="58" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_18)">
+    <g id="Rectangle_18-2" data-name="Rectangle 18" transform="translate(9 6)" fill="#fcbf88" stroke="#707070" stroke-width="1">
+      <rect width="40" height="37" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="36" rx="7.5" fill="none"/>
+    </g>
+  </g>
+  <text id="BUY" transform="translate(29 29)" font-size="15" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-15.835" y="0">BUY</tspan></text>
+</svg>

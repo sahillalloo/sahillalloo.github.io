@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="55" viewBox="0 0 58 55">
+  <defs>
+    <filter id="Rectangle_16" x="0" y="0" width="58" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_16)">
+    <g id="Rectangle_16-2" data-name="Rectangle 16" transform="translate(9 6)" fill="#fcbf88" stroke="#707070" stroke-width="1">
+      <rect width="40" height="37" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="36" rx="7.5" fill="none"/>
+    </g>
+  </g>
+  <path id="Icon_ionic-ios-heart-empty" data-name="Icon ionic-ios-heart-empty" d="M24.75,3.938h-.07A8,8,0,0,0,18,7.594a8,8,0,0,0-6.68-3.656h-.07a7.949,7.949,0,0,0-7.875,7.945,17.115,17.115,0,0,0,3.361,9.33C10.969,27,18,32.063,18,32.063S25.031,27,29.264,21.213a17.115,17.115,0,0,0,3.361-9.33A7.949,7.949,0,0,0,24.75,3.938Zm2.925,16.116A53.929,53.929,0,0,1,18,29.587a54.01,54.01,0,0,1-9.675-9.541,15.169,15.169,0,0,1-2.981-8.163,5.966,5.966,0,0,1,5.92-5.97h.063a5.9,5.9,0,0,1,2.89.759,6.144,6.144,0,0,1,2.137,2,1.975,1.975,0,0,0,3.3,0,6.205,6.205,0,0,1,2.138-2,5.9,5.9,0,0,1,2.89-.759h.063a5.966,5.966,0,0,1,5.92,5.97A15.361,15.361,0,0,1,27.675,20.053Z" transform="translate(11 6.5)"/>
+</svg>

@@ -3,6 +3,7 @@
     --main-blue: #10122C;
     --main-beige: #FCBF88;
     --grey: grey;
+    --bright-green: #86EF45;
 }
 
 body{
@@ -14,6 +15,11 @@ body{
     display: flex;
     flex: 1;
     min-height: 100%;
+}
+
+button{
+    background: none;
+	border: none;
 }
 
 /* ------------------------------- Banner CSS ------------------------------- */
@@ -31,11 +37,6 @@ body{
 
 .profile-icon:hover{
     background-color: var(--grey);
-}
-
-.right-header button{
-    background: none;
-	border: none;
 }
 
 .cart-icon:hover{
@@ -129,4 +130,8 @@ body{
     background-color: #FCBF88;
 }
 
+
+.price{
+    color: var(--bright-green)
+}
 

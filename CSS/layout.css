@@ -72,7 +72,7 @@ body{
     padding-bottom: -5px;
     position: absolute;
     top: 60px;
-    left: 100px; 
+    left: 90px;
 }
 .search-icon:hover{
     border-radius: 0.5rem;
@@ -111,8 +111,8 @@ body{
 
 .hamburger {
     display: block;
-    height: 40px;
-    width: 50px;
+    height: 35px;
+    width: 40px;
     position: absolute;
     top: 65px;
     left: 20px;
@@ -197,7 +197,7 @@ body{
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line1 {
-    transform: rotate(48deg);
+    transform: rotate(55deg);
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line2 {
@@ -205,9 +205,8 @@ body{
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line3 {
-    transform: rotate(-48deg);
+    transform: rotate(-55deg);
 }
-
 
 /* -------------------------------- Main CSS -------------------------------- */
 
@@ -412,7 +411,7 @@ body{
     .email-enter{
         margin-top: 10px;
     }
-
+    
 }
 
 /* -------------------------------- Cart CSS -------------------------------- */
@@ -434,7 +433,7 @@ body{
     padding: 1.2rem;
 }
 
-.prices{
+.cart-prices{
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
 }
@@ -442,4 +441,51 @@ body{
 .cart-btns{
     display: flex;
     flex-direction: row;
+}
+
+/* ----------------------------- Search Page CSS ----------------------------- */
+
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(132, 104, 104, 0.5)
+}
+
+.product-btns{
+    display: grid;
+    grid-template-columns: 45px 45px 45px;
+    padding-left: 1.5rem;
+}
+
+.quick-buy{
+    padding-left: 0.75rem ;
+}
+
+
+@media all and (max-width: 540px) {
+
+    .product{
+        margin-left: 1.5rem;
+        width: 130px;
+        padding: none;
+    }
+
+    .cover{
+        padding-left: 0.8rem;
+    }
+
+    .price{
+        padding-left: 2.5rem;
+    }
+
+    .product-btns{
+        padding-left: 0rem;
+        padding-top: 1rem;
+    }
+
 }
