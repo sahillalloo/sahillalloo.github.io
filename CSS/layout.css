@@ -81,6 +81,9 @@ body{
 .profile-icon{
     width: 50px;
     padding-top: 5px;
+    position: absolute;
+    right: 5px;
+    top: -15px;
 }
 .profile-icon:hover{
     border-radius: 0.5rem;
@@ -96,6 +99,9 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
+    position: absolute;
+    right: 50px;
+    top: -15px;
 }
 .cart-icon:hover{
     border-radius: 0.5rem;
@@ -353,8 +359,15 @@ body{
         left: 80px;
     }
 
+    .profile-icon{
+        top: -23px;
+        right: 0;
+    }
+
     .cart-icon{
         margin-right: 5px;
+        top: -23px;
+        right: 45px;
     }
 
     .mobile-genres-tile{
