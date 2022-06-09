@@ -1,10 +1,3 @@
-/* html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-} */
-
 * {
     margin: 0;
 }
@@ -358,8 +351,7 @@ body{
     justify-self: center;
 }
 
-
-/* ----------------------------- Mobile CSS ----------------------------- */
+/* --------------------------- Main Mobile CSS --------------------------- */
 
 @media all and (max-width: 540px) {
 
@@ -529,7 +521,6 @@ body{
 .pages-num{
     margin-bottom: 1rem;
 }
-
 
 @media all and (max-width: 540px) {
 
