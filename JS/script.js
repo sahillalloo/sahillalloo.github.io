@@ -1,4 +1,3 @@
-
 /* ---------------------------- Cart Pop-out CSS ---------------------------- */
 
 document.getElementById('cart').style.display = 'none';
