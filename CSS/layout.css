@@ -129,7 +129,7 @@ body{
 .hamburger {
     display: block;
     height: 35px;
-    width: 40px;
+    width: 45px;
     position: absolute;
     top: 65px;
     left: 20px;
@@ -214,7 +214,7 @@ body{
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line1 {
-    transform: rotate(55deg);
+    transform: rotate(45deg);
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line2 {
@@ -222,7 +222,7 @@ body{
 }
 
 .menu-icon input[type="checkbox"]:checked ~ .hamburger .line3 {
-    transform: rotate(-55deg);
+    transform: rotate(-45deg);
 }
 
 /* -------------------------------- Main CSS -------------------------------- */
