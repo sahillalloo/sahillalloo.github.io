@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="265" height="95" viewBox="0 0 265 95">
+  <g id="Rectangle_56" data-name="Rectangle 56" stroke="#707070" stroke-width="1" opacity="0.804">
+    <rect width="265" height="95" rx="25" stroke="none"/>
+    <rect x="0.5" y="0.5" width="264" height="94" rx="24.5" fill="none"/>
+  </g>
+  <text id="Sub_Total:_" data-name="Sub Total: " transform="translate(81 23)" fill="#fff" font-size="20" font-family="Helvetica-BoldOblique, Helvetica" font-weight="700" font-style="oblique"><tspan x="-50.923" y="0">Sub Total: </tspan></text>
+  <text id="Shipping:" transform="translate(76 52)" fill="#fff" font-size="20" font-family="Helvetica-BoldOblique, Helvetica" font-weight="700" font-style="oblique"><tspan x="-46.099" y="0">Shipping:</tspan></text>
+  <text id="Total:" transform="translate(56 81)" fill="#fff" font-size="20" font-family="Helvetica-BoldOblique, Helvetica" font-weight="700" font-style="oblique"><tspan x="-26.479" y="0">Total:</tspan></text>
+  <text id="_84.00" data-name="$84.00" transform="translate(204 24)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-30.586" y="0">$84.00</tspan></text>
+  <text id="_12.50" data-name="$12.50" transform="translate(204 53)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-30.586" y="0">$12.50</tspan></text>
+  <text id="_96.50" data-name="$96.50" transform="translate(204 82)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-30.586" y="0">$96.50</tspan></text>
+</svg>

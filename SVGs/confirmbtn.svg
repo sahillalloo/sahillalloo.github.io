@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225.673" height="37.279" viewBox="0 0 250.673 52.279">
+  <g id="Rectangle_43" data-name="Rectangle 43" fill="#07070b" stroke="#ffec5a" stroke-width="1" opacity="0.798">
+    <rect width="250.673" height="52.279" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="249.673" height="51.279" rx="9.5" fill="none"/>
+  </g>
+  <text id="Confirm_Checkout" data-name="Confirm Checkout" transform="translate(125.336 33.14)" fill="#ecff5c" font-size="26" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-112.671" y="0">Confirm Checkout</tspan></text>
+</svg>

@@ -96,8 +96,14 @@ button{
 
 /* ---------------------------- Cart Pop-out CSS ---------------------------- */
 
-.flex-aside {
-    /* background-color: #020420; */
+.cart-content {
+    color: black;
+    box-shadow: 0px 2px 5px 0px var(--main-blue) inset;
+    background-color: var(--main-beige);
+}
+
+.price{
+    color: var(--bright-green)
 }
 
 /* -------------------------- Profile Pop-out CSS --------------------------- */
@@ -122,18 +128,6 @@ button{
     box-shadow: 0px 0px 3px 0px inset;
 }
 
-/* -------------------------------- Cart CSS -------------------------------- */
-
-.cart-content {
-    color: black;
-    box-shadow: 0px 2px 5px 0px var(--main-blue) inset;
-    background-color: var(--main-beige);
-}
-
-.price{
-    color: var(--bright-green)
-}
-
 /* ----------------------------- Search Page CSS ----------------------------- */
 
 .results-num{
@@ -151,7 +145,7 @@ button{
 }
 
 .product{
-    background-color: rgb(132, 104, 104, 0.5);
+    background-color: rgb(132, 104, 104, 0.4);
 }
 
 .pages{
@@ -164,9 +158,50 @@ button{
 /* ----------------------------- Product Page CSS ----------------------------- */
 
 .product-content{
-    background-color: rgb(132, 104, 104, 0.5);
+    background-color: rgb(132, 104, 104, 0.4);
 }
 
 .product-price{
     color: var(--bright-green)
+}
+
+.drop-btn{
+    background-color: var(--main-beige);
+    color: black;
+}
+
+.drop-btn::before{
+    background: var(--main-beige);
+}
+
+.drop-menu-sub{
+    background-color: rgb(252, 191, 136, 0.75);
+}
+
+.drop-menu-sub a{
+    color: black;
+}
+
+/* --------------------------- Checkout Page CSS --------------------------- */
+
+.create-account{
+    color: var(--bright-green);
+}
+
+.close-tab{
+    color: red;
+}
+
+.checkout-return{
+    color: red;
+}
+
+/* --------------------------- Confirmation CSS --------------------------- */
+
+.confirmation-info{
+    color: var(--main-beige);
+}
+
+.confirmation-return{
+    color: var(--bright-green);
 }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="flex-banner">
+            MON-SAT 10am-6pm SUN 11am-pm
+            <div class="lang">
+                EN
+            </div>
+        </header>
+
+        <nav class="flex-header">
+            <div class="left-header">
+                <div class="menu-icon">
+                    <input type="checkbox" name="" id="">
+                    <div class="hamburger">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <ul class="menu-items">
+                        <div class="menu-header">
+                            <img src="../SVGs/menulogo.svg" alt="">
+                            <p class>Menu:</p>
+                        </div>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Genres</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Cleaning</a></li>
+                        <li><a href="#">Pre-order</a></li>
+                        <li><a href="#">Gifts</a></li>
+                    </ul>
+                </div>
+                <a href="../HTML/search.html" class="search-icon"><img src="../SVGs/searchicon.svg" alt=""></a>
+            </div>
+            <a href="../index.html" class="logo-icon"><img src="../SVGs/logo.svg" alt=""></a>
+            <a href="../index.html" class="small-logo"><img src="../SVGs/smalllogo.svg" alt=""></a>
+            <div class="right-header">
+                <div id="cart-info">
+                    <button onclick="openCart()" class="cart-icon"><img src="../SVGs/carticon.svg" alt=""></button>
+                    <div id="cart" class="cart-content">
+                        <div class="cart-header">
+                            <p>Cart:</p>
+                            <button onclick="closeCart()" class="close-cart">X</button>
+                        </div>
+                        <div class="cart-items">
+                            <img src="../SVGs/cartitem1.svg" alt="">
+                            <img src="../SVGs/cartitem2.svg" alt="">
+                        </div>
+                        <div class="cart-prices">
+                            <p>Sub Total: $84.00</p>
+                            <p>Shipping: $12.50</p>
+                            <p class="total-price">Total: $96.50</p>
+                        </div>
+                        <div cart-btns>
+                            <button onclick="closeCart()" class="back-cart"><img src="../SVGs/backbtn.svg" alt=""></button>
+                            <a href="./checkout.html"><img src="../SVGs/checkoutbtn.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="profile-icon"><img src="../SVGs/profileicon.svg" alt=""></a>
+            </div>
+        </nav>
+
+        <main class="flex-main">
+
+            <nav class="flex-nav">
+                
+            </nav>
+
+            <article class="flex-article">
+                <div class="confirmation-info">
+                    <img class="confirmation-header" src="../SVGs/congrats.svg" alt="">
+                    <p>Your Order Has Been Confirmed</p>
+                    <p>These items are coming your way!</p>
+                    <img class="confirm-items" src="../SVGs/confirmationitems.svg" alt="">
+                    <p>Estimated Arrival: 5-6 Business Days</p>
+                    <p>Conformation email has been sent to example@gmail.com</p>
+                    <p>Reference No: ABC123456</p>
+                    <p class="confirmation-return"><a href="../index.html" class="confirmation-return">Return Home</a></p>
+                </div>
+                
+            </article>
+
+            <aside class="flex-aside">
+                
+            </aside>
+
+        </main>
+
+        <footer class="flex-footer">
+            <div class = "footer-info">
+                <div class="socials">
+                    <a href="#"><img src="../SVGs/socialicons.svg" alt=""></a>
+                </div>
+                <p class="footer-links"> 
+                    Contact
+                </p>
+                <p class="copyright">
+                    © 2022, The Searchers Records
+                </p>
+                <p class="footer-links">
+                    Shipping
+                </p>
+            </div>
+            <div class="email-enter">
+                <input type="text" placeholder="Email Address" name="search">
+                <button>Subscribe</button>
+            </div>
+        </footer>
+
+
+    </div>
+
+    
+    <script src="../JS/script.js"></script>
+</body>
+</html>

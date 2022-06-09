@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="flex-banner">
+            MON-SAT 10am-6pm SUN 11am-pm
+            <div class="lang">
+                EN
+            </div>
+        </header>
+
+        <nav class="flex-header">
+            <div class="left-header">
+                <div class="menu-icon">
+                    <input type="checkbox" name="" id="">
+                    <div class="hamburger">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <ul class="menu-items">
+                        <div class="menu-header">
+                            <img src="../SVGs/menulogo.svg" alt="">
+                            <p class>Menu:</p>
+                        </div>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Genres</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Cleaning</a></li>
+                        <li><a href="#">Pre-order</a></li>
+                        <li><a href="#">Gifts</a></li>
+                    </ul>
+                </div>
+                <a href="../HTML/search.html" class="search-icon"><img src="../SVGs/searchicon.svg" alt=""></a>
+            </div>
+            <a href="../index.html" class="logo-icon"><img src="../SVGs/logo.svg" alt=""></a>
+            <a href="../index.html" class="small-logo"><img src="../SVGs/smalllogo.svg" alt=""></a>
+            <div class="right-header">
+                <div id="cart-info">
+                    <button onclick="openCart()" class="cart-icon"><img src="../SVGs/carticon.svg" alt=""></button>
+                    <div id="cart" class="cart-content">
+                        <div class="cart-header">
+                            <p>Cart:</p>
+                            <button onclick="closeCart()" class="close-cart">X</button>
+                        </div>
+                        <div class="cart-items">
+                            <img src="../SVGs/cartitem1.svg" alt="">
+                            <img src="../SVGs/cartitem2.svg" alt="">
+                        </div>
+                        <div class="cart-prices">
+                            <p>Sub Total: $84.00</p>
+                            <p>Shipping: $12.50</p>
+                            <p class="total-price">Total: $96.50</p>
+                        </div>
+                        <div cart-btns>
+                            <button onclick="closeCart()" class="back-cart"><img src="../SVGs/backbtn.svg" alt=""></button>
+                            <a href="./checkout.html"><img src="../SVGs/checkoutbtn.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="profile-icon"><img src="../SVGs/profileicon.svg" alt=""></a>
+            </div>
+        </nav>
+
+        <main class="flex-main">
+
+            <nav class="flex-nav">
+                
+            </nav>
+
+            <article class="flex-article">
+                <img class="checkout-header" src="../SVGs/cartsum.svg" alt="">
+                <div class="cart-sum">
+                    <div class="cart-sum-items">
+                        <img src="../SVGs/cartsumitem1.svg" alt="">
+                        <img src="../SVGs/cartsumitem2.svg" alt="">
+                    </div>
+                    <img src="../SVGs/cartsumprice.svg" alt="">
+                </div>
+                <div class="drop-downs">
+                    <div class="drop-menu">
+                        <li class="drop-menu-item" id="log-in">
+                            <a href="#log-in" class="drop-btn">
+                                <p>Login</p>
+                                <img src="../SVGs/downarrow.svg" alt="">
+                            </a>
+                            <div class="drop-menu-sub">
+                                <div class="checkout-inputs">
+                                    <input type="text" placeholder="Email" name="search">
+                                    <input type="text" placeholder="Password" name="search">
+                                </div>
+                                <button class="login-btn"><img src="../SVGs/loginbtn.svg" alt=""></button>
+                                <p class="create-account">Create an account</p>
+                                <a href="#" class="close-tab">Close</a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="drop-menu">
+                        <li class="drop-menu-item" id="contact-info">
+                            <a href="#contact-info" class="drop-btn">
+                                <p>Contact Info</p>
+                                <img src="../SVGs/downarrow.svg" alt="">
+                            </a>
+                            <div class="drop-menu-sub">
+                                <div class="checkout-inputs">
+                                    <input type="text" placeholder="First name" name="search">
+                                    <input type="text" placeholder="Middle name (optional)" name="search">
+                                    <input type="text" placeholder="Last name" name="search">
+                                    <input type="text" placeholder="Email or mobile number" name="search">
+                                </div>
+                                <a href="#" class="close-tab">Close</a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="drop-menu">
+                        <li class="drop-menu-item" id="shipping-info">
+                            <a href="#shipping-info" class="drop-btn">
+                                <p>Shipping Info</p>
+                                <img src="../SVGs/downarrow.svg" alt="">
+                            </a>
+                            <div class="drop-menu-sub">
+                                <div class="checkout-inputs">
+                                    <input type="text" placeholder="Country" name="search">
+                                    <input type="text" placeholder="Street name" name="search">
+                                    <input type="text" placeholder="Street/apartment no." name="search">
+                                    <input type="text" placeholder="Suburb" name="search">
+                                    <input type="text" placeholder="State" name="search">
+                                    <input type="text" placeholder="Postcode" name="search">
+                                </div>
+                                <a href="#" class="close-tab">Close</a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="drop-menu">
+                        <li class="drop-menu-item" id="payment">
+                            <a href="#payment" class="drop-btn">
+                                <p>Payment Info</p>
+                                <img src="../SVGs/downarrow.svg" alt="">
+                            </a>
+                            <div class="drop-menu-sub">
+                                <div class="checkout-inputs">
+                                    <input type="text" placeholder="Card type" name="search">
+                                    <input type="text" placeholder="Card number" name="search">
+                                    <input type="text" placeholder="Expiry date" name="search">
+                                    <input type="text" placeholder="CVV" name="search">
+                                </div>
+                                <a href="#" class="close-tab">Close</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <p class="confirmation-btn"><a href="./confirmation.html"><img src="../SVGs/confirmbtn.svg" alt=""></a></p>
+                <p class="checkout-return"><a href="../index.html" class="checkout-return">Return Home</a></p>
+            </article>
+
+            <aside class="flex-aside">
+                
+            </aside>
+
+        </main>
+
+        <footer class="flex-footer">
+            <div class = "footer-info">
+                <div class="socials">
+                    <a href="#"><img src="../SVGs/socialicons.svg" alt=""></a>
+                </div>
+                <p class="footer-links"> 
+                    Contact
+                </p>
+                <p class="copyright">
+                    © 2022, The Searchers Records
+                </p>
+                <p class="footer-links">
+                    Shipping
+                </p>
+            </div>
+            <div class="email-enter">
+                <input type="text" placeholder="Email Address" name="search">
+                <button>Subscribe</button>
+            </div>
+        </footer>
+
+
+    </div>
+
+    
+    <script src="../JS/script.js"></script>
+</body>
+</html>

@@ -122,5 +122,36 @@ body{
     font-weight: bold;
 }
 
+.drop-menu a{
+    text-decoration: none;
+}
 
+.drop-btn{
+    font-size: 18px;
+}
 
+.drop-menu-sub a{
+    font-size: 0.8rem;
+}
+
+/* --------------------------- Checkout Page CSS --------------------------- */
+
+.create-account{
+    font-size: 13px;
+}
+
+.checkout-return{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* --------------------------- Confirmation CSS --------------------------- */
+
+.confirmation-info{
+    font-size: 20px;
+    line-height: 30px;
+}
+.confirmation-return{
+    text-decoration: none;
+    font-size: 15px;
+}
