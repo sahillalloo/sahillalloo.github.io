@@ -115,3 +115,12 @@ body{
     line-height: 40px;
 }
 
+/* ----------------------------- Product Page CSS ----------------------------- */
+
+.product-price{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
